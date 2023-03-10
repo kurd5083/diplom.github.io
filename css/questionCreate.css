@@ -1,0 +1,102 @@
+.form-question {
+    padding: 20px;
+    box-shadow: 
+    inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+    inset 0 15px 15px rgba(0, 0, 0, 0.3);
+    margin: 40px auto;
+    width: 920px;
+    background-color: #091921;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 770px;
+    height: 230px;
+}
+.form-question input {
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    outline: none;
+    color: #292c41;
+    width: 755px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.form-question input:focus {
+    border-bottom: 4px solid rgb(0, 216, 0) ; 
+}
+input:focus::-webkit-input-placeholder {
+    opacity: 1;
+    transition: 1s;
+    color: transparent;
+}
+.form-btn button:hover {
+    filter: brightness(120%);
+}
+.form-btn button:active {
+    filter: brightness(90%);
+}
+.form-btn button {
+    margin-left: 4px;
+    background-color: #5B6187;
+    color: #fff;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 5px;
+    width: 185px;
+}
+.sizes {
+    width: 710px;
+    margin-right: 10px;
+}
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.input-question {
+    margin-bottom: 12px;
+}
+#error {
+    margin: 0;
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    font-size: 16px;
+}
+.mistake {
+    border-bottom:  4px solid #ed6742;
+}
+.correctly {
+    border-bottom:  4px solid #42ed56;
+}
+input[type="checkbox"] {
+    display: none;
+}
+label:before {
+    content: " ";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background: #FFF;
+    border-radius: 15%;
+}
+input:checked + label:before {
+    content: "\2713";
+    font-size: 14px;
+    background-color: #2bf13b;
+    color: #fff;
+}
+.label-error:before {
+    border-bottom: 3px solid #ed6742;
+}

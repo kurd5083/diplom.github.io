@@ -1,0 +1,29 @@
+.form-dop-question {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#inputName {
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    outline: none;
+    color: #292c41;
+}
+.slider-block {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.slider {
+    margin-right: 20px ;
+    width: 550px;
+}
+.form-dop-question h4 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.input-name:focus {
+    border-bottom: 4px solid rgb(0, 216, 0) ; 
+}

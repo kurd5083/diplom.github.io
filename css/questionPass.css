@@ -1,0 +1,113 @@
+body{
+    background-color: #0c1d26;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.quiz{
+    padding: 80px 60px 80px 60px;
+    box-shadow: 
+    inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+    inset 0 15px 15px rgba(0, 0, 0, 0.3);
+    margin: 80px auto;
+    width: 920px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #091921;
+
+}
+.positioning-clock{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.clock-time-position{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 30px;
+}
+.clock{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+.quiz-questions-item, 
+.quiz-results-item{
+margin-bottom: 20px;
+line-height: 1.5;
+}
+.quiz-questions-item-questions, 
+.quiz-results-item-questions{
+    font-size: 28px;
+    margin-bottom: 10px;
+
+}
+.quiz-results-item-questions{
+    font-size: 24px;
+}
+.quiz-questions, 
+.quiz-indicator, 
+.quiz-results{
+    margin-bottom: 20px;
+}
+.btn-next, 
+.btn-restart,
+.btn-back,
+.main-menu{
+    font-size: 14px;
+    padding: 15px 30px;
+    margin: 20px 10px 0px 0px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5B6187;
+    color: #fff;
+    user-select: none;
+}
+.btn-next:hover, .button-restart:hover{
+    filter: brightness(120%);
+}
+.btn-next:active, .button-restart:active{
+    filter: brightness(90%);
+}
+.quiz-questions-item-answers{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    line-height: 1.7;
+}
+ul{
+    list-style: none;
+}
+.quiz-results{
+    display: none;
+}
+.btn-restart{
+    display: none;
+}
+.questions--hidden,
+.indicator--hidden,
+.btn-next--hidden{
+    display: none;
+}
+.btn-restart--visible,
+.indicator--visible{
+    display: inline-block;
+}
+h2{
+    margin: 30px auto;
+    width: 70px;
+}
+#answer-incorrect{
+    background-color: rgba(105, 105, 105, 0.5);
+    padding: 40px 60px;
+}
+.answer--valid{
+    color: #42ed56;
+}
+.answer--invalid{
+    color: #ed6742;
+}
+a{
+    text-decoration: none;
+}
