@@ -119,7 +119,7 @@ btnSave.addEventListener('click', function(){
     let window = document.getElementById('window');
     window.innerHTML = `<div class="win"><h2 class="h2-name-save">Тест сохранен! <br>Чтобы пройти перейдите во вкладуку "Пройти тест".</h2>
     <div class="win-btn">
-    <a href="mainMenu.html"><button id="resume">продолжить</button></a>
+    <a href="../index.html"><button id="resume">продолжить</button></a>
     </div>
     </div>`;
     updateLocal();
